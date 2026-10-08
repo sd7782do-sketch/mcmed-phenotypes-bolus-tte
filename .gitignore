@@ -1,0 +1,16 @@
+# MC-MED data and derived record-level files must not be shared (PhysioNet DUA)
+data/
+output/
+*.csv
+*.csv.gz
+*.parquet
+*.rds
+*.RData
+# figures and R session files
+*.png
+*.tiff
+*.tif
+*.pdf
+.Rhistory
+.Rproj.user/
+.DS_Store
